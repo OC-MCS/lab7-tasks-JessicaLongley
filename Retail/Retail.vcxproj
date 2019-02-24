@@ -144,6 +144,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="testRetail.cpp" />
+    <ClCompile Include="RetailItem.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RetailItem.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

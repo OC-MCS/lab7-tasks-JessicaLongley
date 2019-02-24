@@ -29,7 +29,6 @@ Die::Die(int numSides)
 //*******************************************************
 void Die::roll()
 {
-	// Constant for the minimum die value
 	const int MIN_VALUE = 1;   // Minimum die value
 
 	// Get a random value for the die.

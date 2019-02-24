@@ -1,5 +1,7 @@
-
-// code to test your RetailItem class goes here
+#include<iostream>
+#include <string>
+#include "RetailItem.h"
+using namespace std;
 
 int main()
 {
