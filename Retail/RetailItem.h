@@ -1,6 +1,7 @@
 #pragma once
-//#include<string>
 
+#include <string> //I need to put this here to make the code compile but it seems wrong. How do I make this better?
+using namespace std;
 class RetailItem
 {
 private:

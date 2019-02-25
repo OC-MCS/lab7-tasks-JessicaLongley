@@ -2,6 +2,7 @@
 // client code to use the Die class goes here
 #include <iostream>
 #include "Die.h"
+#include <iomanip>
 
 using namespace std;
 
@@ -43,6 +44,8 @@ void displayPct(float counter[], int size)
     cout << "Stats for " << size  << "sided die. " << endl;
     for (int count = 1; count <= size; count++)
     {
-        cout << "Side " << count << ":   " << counter[count]/10000 << endl; //divided by 10000 instead of multiplied by 1000000 and divided by 100
+        cout << "Side " << setw(2) << count << ":   " << fixed << setprecision(2) << counter[count]/10000 << "%" << endl; 
+        //divided by 10000 instead of multiplied by 1000000 and divided by 100
     }
+    cout << endl;
 }
