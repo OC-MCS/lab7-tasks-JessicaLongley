@@ -27,4 +27,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\OneDrive\Programming 2 Lab 7\RetailProject.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
 </Project>
